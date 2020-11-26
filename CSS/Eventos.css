@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import "node_modules/bootstrap/scss/bootstrap";
 html{
     background: linear-gradient(whitesmoke,white);
@@ -45,26 +45,9 @@ html{
 .R1{
     text-align: center;
 }
-#notes{
-    display: inline-flex;
-    height: 50px;
-    width: 80px;
-    margin: 15px;
-}
-#porcentaje{
-    display: inline-flex;
-    height: 50px;
-    width: 80px;
-    margin: 15px;
-}
 .CalcBut{
     text-align: center;
     margin-bottom: 35px;
-}
-#resultado{
-    display: inline-flex;
-    height: 50px;
-    width: 200px;
 }
 .Event{
     box-sizing: border-box;
@@ -142,7 +125,25 @@ html{
 #Rules h2{
     text-align: center;
 }
+
 #Rules a{
     display: block;
     margin: auto;
+}
+#notes {
+    display: inline-flex;
+    width: 100px;
+    height: 50px;
+    margin: 15px;
+}
+#porcentaje {
+   display: inline-flex;
+    width: 100px;
+    height: 50px;
+    margin: 15px;
+}
+#resultado {
+    display: inline-flex;
+    width: 100px;
+    height: 50px;
 }
