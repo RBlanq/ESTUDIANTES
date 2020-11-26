@@ -13,7 +13,7 @@ $(document).ready(function () {
 		if (x < max_fields) {
 			x++;
 
-			$(wrapper).append('<div class="R1"><input type="number" class="form-control" name="mytext[]"/><input type="number"  class="form-control" name="mytext2[]"><a href="#" class="remove_field">Remove</a></div>');
+			$(wrapper).append('<div class="R1"><input type="number" class="form-control" id="notes" name="mytext[]"/><span class="input-group-addon">-</span><input type="number"  class="form-control" id="porcentaje" name="mytext2[]"><a href="#" class="remove_field">Remove</a></div>');
 			
 		}
 	});
